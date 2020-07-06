@@ -1,0 +1,3 @@
+﻿2、
+1、2020-7-6 22:40:25	添加数据库连接对象，包括SQLServer、MySql、PostgresQL、Oracle、SQLite、Odbc（SqlManipulation.cs）
+						添加对XML文件的操作类（XMLHelper）
