@@ -12,7 +12,7 @@ using System.Web;
 using System.Text;
 //using ToolClass;
 
-namespace APILibrary.XMLHelper
+namespace APILibrary.XMLHelpers
 {
     /// <summary>自定义对配置xml文件操作</summary>
     public class XMLHelper

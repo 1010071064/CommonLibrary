@@ -58,9 +58,10 @@
   <ItemGroup>
     <Compile Include="DataBase.cs" />
     <Compile Include="Database\ErrorHelper.cs" />
+    <Compile Include="Database\ShareCode.cs" />
     <Compile Include="Database\SqlManipulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XMLHelper\XMLHelper.cs" />
+    <Compile Include="XMLHelpers\XMLHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DLL\MySql.Data.dll" />
