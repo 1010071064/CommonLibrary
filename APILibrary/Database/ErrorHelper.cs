@@ -1,4 +1,5 @@
-﻿using System;
+﻿using APILibrary.LogHelper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +8,12 @@ using System.Text;
 namespace APILibrary.Database
 {
     /// <summary>
-    /// Handle all the errors. Usually a log service will be presented here to keep the process fluent.
+    /// 处理所有错误。通常这里将提供日志服务，以保持流程连贯。
     /// </summary>
     static class ErrorHelper
     {
         /// <summary>
-        /// Implement your own error handle logic here. log service, echo can be included.
+        /// 在这里实现您自己的错误处理逻辑。日志服务，echo可以包括在内。
         /// </summary>
         /// <param name="e"></param>
         public static void Error(Exception e)

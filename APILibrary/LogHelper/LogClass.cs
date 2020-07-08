@@ -37,7 +37,6 @@ namespace APILibrary.LogHelper
         /// <param name="messeg">消息</param>
         public static void Error(string clsName, string funcName, string messeg)
         {
-
             log4net.ILog log = log4net.LogManager.GetLogger(clsName + "-->" + funcName);
             log.Error(messeg);
         }
