@@ -60,7 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataBase.cs" />
+    <Compile Include="Database\DataBase.cs" />
     <Compile Include="Database\ErrorHelper.cs" />
     <Compile Include="Database\ShareCode.cs" />
     <Compile Include="Database\SqlManipulation.cs" />

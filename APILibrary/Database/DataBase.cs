@@ -14,7 +14,7 @@ using APILibrary.XMLHelpers;
 using APILibrary.Database;
 using APILibrary.LogHelper;
 
-namespace CodeBase
+namespace APILibrary.Database
 {
     public class DataBase
     {
