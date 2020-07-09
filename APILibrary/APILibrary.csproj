@@ -75,7 +75,9 @@
     <Content Include="DLL\Oracle.ManagedDataAccess.dll" />
     <Content Include="DLL\System.Data.SQLite.dll" />
     <Content Include="DLL\System.Data.SQLite.xml" />
-    <Content Include="LocalSetting.XML" />
+    <Content Include="LocalSetting.XML">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="log4j.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

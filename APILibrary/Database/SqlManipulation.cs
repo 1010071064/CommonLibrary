@@ -452,7 +452,7 @@ namespace APILibrary.Database
             //}
             //    _disposed = true;
             //}
-            this.Dispose();
+            //this.Dispose();
         }
 
         ~SqlManipulation()
